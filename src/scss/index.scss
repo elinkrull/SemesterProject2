@@ -32,3 +32,14 @@ $primary: rgb(197, 223, 198);
 	font-size: 20px;
 	color: rgb(13, 104, 13);
 }
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    border: 0;
+}
